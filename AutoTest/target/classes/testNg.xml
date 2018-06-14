@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="test">
+    <test name="login">
+        <classes>
+            <class name="suite.SuiteConfig"></class>
+            <class name="suite.LoginTest"></class>
+        </classes>
+    </test>
+
+    <test name="pay">
+        <classes>
+            <class name="suite.SuiteConfig"></class>
+            <class name="suite.PayTest"></class>
+        </classes>
+    </test>
+</suite>

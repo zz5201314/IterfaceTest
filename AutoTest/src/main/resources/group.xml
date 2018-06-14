@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="group">
+    <test name="grouptest">
+        <classes>
+            <class name="com.course.testNg.group.GroupsOnClass01"/>
+            <class name="com.course.testNg.group.GroupsOnClass02"/>
+            <class name="com.course.testNg.group.GroupsOnClass03"/>
+        </classes>
+    </test>
+
+    <test name="onlyRunstu">
+        <groups>
+            <run>
+                <include name="stu"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.course.testNg.group.GroupsOnClass01"/>
+            <class name="com.course.testNg.group.GroupsOnClass02"/>
+            <class name="com.course.testNg.group.GroupsOnClass03"/>
+        </classes>
+    </test>
+</suite>
