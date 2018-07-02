@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="接口测试套件">
+    <test name="接口测试报告">
+
+        <classes name="com.extentreports.demo.AssertTest">
+            <class name="com.extentreports.demo.AssertTest">
+                <methods>
+                    <include name="test01"></include>
+                    <include name="test02"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="com.extentreports.demo.ExtentTestNGIReporterListener"></listener>
+    </listeners>
+</suite>
